@@ -1,0 +1,26 @@
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+function func(){
+var i;
+var name = [];
+var email = [];
+$.getJSON("https://cy30l4lai7.execute-api.eu-west-2.amazonaws.com/api/v1/to-rent/fulham/?key=306aea8fa39d4299a14b63fec17071ca&minBedrooms=2&maxBedrooms=2&radius=1&maxPrice=2000&sortType=6",function(data){
+console.log(data);
+
+
+}
+);
+}
+</script>
+</head>
+<body onload="func()">
+
+
+
+ 
+   </body> 
+</html>
